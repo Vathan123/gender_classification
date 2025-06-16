@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-FASTAPI_URL = "http://127.0.0.1:8000/predict"  # change to your Render URL when deployed
+FASTAPI_URL = "https://gender-classifications.onrender.com/predict"  # change to your Render URL when deployed
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
