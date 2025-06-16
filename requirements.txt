@@ -1,0 +1,5 @@
+flask
+gdown
+requests
+python-multipart 
+gunicorn
